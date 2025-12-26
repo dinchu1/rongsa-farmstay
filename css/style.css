@@ -1659,8 +1659,32 @@ img {
   }
 
   /* Navigation becomes mobile */
+  .navbar {
+    padding: 0.75rem 0;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .nav-wrapper > .whatsapp-btn {
+    order: 2;
+    margin: 0 auto 0 1rem;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+
   .mobile-menu-toggle {
     display: flex;
+    order: 3;
+    margin-left: auto;
   }
 
   .nav-menu {
@@ -1698,10 +1722,12 @@ img {
     display: none;
   }
 
-  .whatsapp-btn {
+  .nav-menu .whatsapp-btn {
     margin-top: 2rem;
     width: 100%;
     justify-content: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
   }
 
   /* Grids to single column */
