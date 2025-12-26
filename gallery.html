@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>
+      Gallery | Rongsa Farmstay Photos - Sittong Village, Pool, Rooms & Scenic
+      Views
+    </title>
+    <meta
+      name="description"
+      content="View photos of Rongsa Farmstay in Sittong, Darjeeling. See our pool, comfortable rooms, riverside location, mountain views, and authentic village life experiences."
+    />
+    <meta
+      name="keywords"
+      content="Rongsa Farmstay photos, Sittong homestay images, Darjeeling village pictures, farmstay gallery, homestay accommodation photos"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Gallery - Rongsa Farmstay Sittong" />
+    <meta
+      property="og:description"
+      content="Experience Rongsa Farmstay through our photo gallery - scenic views, comfortable rooms, and authentic village life."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-wrapper">
+            <div class="logo">
+              <a href="index.html">
+                <h1>Rongsa Farmstay</h1>
+                <p class="tagline">Authentic Lepcha Experience</p>
+              </a>
+            </div>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="rooms.html">Rooms & Pricing</a></li>
+              <li><a href="gallery.html" class="active">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <a
+              href="https://wa.me/918101379235?text=Hello%2C%20I%27m%20interested%20in%20booking%20Rongsa%20Farmstay"
+              class="whatsapp-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+              </svg>
+              Book Now
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="page-hero-overlay"></div>
+      <div class="page-hero-content">
+        <h1>Gallery</h1>
+        <p>A visual journey through Rongsa Farmstay</p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Gallery Introduction -->
+      <section class="gallery-intro section-padding">
+        <div class="container">
+          <div class="section-header text-center">
+            <span class="section-label">Explore</span>
+            <h2>Experience Rongsa Through Our Lens</h2>
+            <p class="section-intro">
+              Discover the beauty of Sittong village, our comfortable
+              accommodations, and the unforgettable experiences awaiting you at
+              Rongsa Farmstay.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Categories - FLASK NOTE: Can be dynamic categories from database -->
+      <section class="gallery-filters section-padding-top">
+        <div class="container">
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">
+              All Photos
+            </button>
+            <button class="filter-btn" data-filter="property">Property</button>
+            <button class="filter-btn" data-filter="rooms">Rooms</button>
+            <button class="filter-btn" data-filter="pool">Swimming Pool</button>
+            <button class="filter-btn" data-filter="views">Scenic Views</button>
+            <button class="filter-btn" data-filter="village">
+              Village Life
+            </button>
+            <button class="filter-btn" data-filter="food">Food & Dining</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Grid -->
+      <!-- FLASK NOTE: Images can be stored in database with categories and rendered dynamically -->
+      <section class="gallery-section section-padding-top">
+        <div class="container">
+          <div class="gallery-grid" id="galleryGrid">
+            <!-- Property Images -->
+            <div class="gallery-item" data-category="property">
+              <img
+                src="images/placeholder-exterior-1.jpg"
+                alt="Rongsa Farmstay exterior view in Sittong village, Darjeeling"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Farmstay Exterior</h3>
+                <p>Nestled in nature</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="property">
+              <img
+                src="images/placeholder-entrance.jpg"
+                alt="Welcoming entrance of Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Welcome Entrance</h3>
+                <p>Traditional design</p>
+              </div>
+            </div>
+
+            <!-- Room Images -->
+            <div class="gallery-item" data-category="rooms">
+              <img
+                src="images/placeholder-room-interior-1.jpg"
+                alt="Comfortable room interior at Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Cozy Rooms</h3>
+                <p>Modern comfort, rustic charm</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="rooms">
+              <img
+                src="images/placeholder-room-interior-2.jpg"
+                alt="Double bed room with mountain view window"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Mountain View Room</h3>
+                <p>Wake up to stunning vistas</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="rooms">
+              <img
+                src="images/placeholder-room-interior-3.jpg"
+                alt="Clean bathroom facilities at Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Clean Bathrooms</h3>
+                <p>Modern amenities</p>
+              </div>
+            </div>
+
+            <!-- Pool Images -->
+            <div class="gallery-item" data-category="pool">
+              <img
+                src="images/placeholder-pool-1.jpg"
+                alt="Swimming pool with mountain backdrop at Rongsa Farmstay Sittong"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Pool Paradise</h3>
+                <p>Swim with a view</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="pool">
+              <img
+                src="images/placeholder-pool-2.jpg"
+                alt="Guests enjoying pool at Darjeeling homestay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Pool Time</h3>
+                <p>Relax and unwind</p>
+              </div>
+            </div>
+
+            <!-- Scenic Views -->
+            <div class="gallery-item" data-category="views">
+              <img
+                src="images/placeholder-mountains-1.jpg"
+                alt="Himalayan mountain range view from Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Mountain Majesty</h3>
+                <p>Himalayan panoramas</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="views">
+              <img
+                src="images/placeholder-sunrise.jpg"
+                alt="Sunrise over Darjeeling hills from Sittong"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Golden Sunrise</h3>
+                <p>Nature's morning show</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="views">
+              <img
+                src="images/placeholder-valley.jpg"
+                alt="Valley view from Rongsa Farmstay in Lower Mamring"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Valley Views</h3>
+                <p>Endless green horizons</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="views">
+              <img
+                src="images/placeholder-river.jpg"
+                alt="Riverside location near Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Riverside Serenity</h3>
+                <p>Flowing tranquility</p>
+              </div>
+            </div>
+
+            <!-- Village Life -->
+            <div class="gallery-item" data-category="village">
+              <img
+                src="images/placeholder-village-1.jpg"
+                alt="Sittong village life and Lepcha culture"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Village Charm</h3>
+                <p>Authentic Sittong</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="village">
+              <img
+                src="images/placeholder-tea-garden.jpg"
+                alt="Tea gardens near Rongsa Farmstay Darjeeling"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Tea Estates</h3>
+                <p>Darjeeling's pride</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="village">
+              <img
+                src="images/placeholder-forest.jpg"
+                alt="Dense forest trails near Sittong homestay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Forest Trails</h3>
+                <p>Nature walks</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="village">
+              <img
+                src="images/placeholder-culture.jpg"
+                alt="Lepcha cultural experience at Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Cultural Heritage</h3>
+                <p>Lepcha traditions</p>
+              </div>
+            </div>
+
+            <!-- Food & Dining -->
+            <div class="gallery-item" data-category="food">
+              <img
+                src="images/placeholder-meal-1.jpg"
+                alt="Traditional Lepcha meal at Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Traditional Cuisine</h3>
+                <p>Homemade goodness</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+              <img
+                src="images/placeholder-meal-2.jpg"
+                alt="Home-cooked food at Darjeeling homestay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Dal Bhat</h3>
+                <p>Himalayan comfort food</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+              <img
+                src="images/placeholder-dining.jpg"
+                alt="Dining area at Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Dining Together</h3>
+                <p>Family-style meals</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+              <img
+                src="images/placeholder-tea.jpg"
+                alt="Fresh Darjeeling tea served at homestay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Tea Time</h3>
+                <p>Fresh Darjeeling tea</p>
+              </div>
+            </div>
+
+            <!-- Additional Mixed Category Images -->
+            <div class="gallery-item" data-category="property views">
+              <img
+                src="images/placeholder-garden.jpg"
+                alt="Garden area at Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Garden Space</h3>
+                <p>Green surroundings</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="property">
+              <img
+                src="images/placeholder-seating.jpg"
+                alt="Outdoor seating area at Rongsa Farmstay"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h3>Relaxation Spots</h3>
+                <p>Outdoor lounging</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Load More Button (optional for future expansion) -->
+          <div
+            class="gallery-load-more text-center"
+            style="margin-top: 3rem; display: none"
+          >
+            <button class="btn btn-secondary">Load More Photos</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Photo Guidelines -->
+      <section class="photo-note section-padding bg-light">
+        <div class="container">
+          <div class="note-content text-center">
+            <h3>📸 Share Your Experience</h3>
+            <p>
+              We love seeing photos from our guests! Tag us on social media or
+              share your pictures via WhatsApp. Your memories help others
+              discover the beauty of Rongsa Farmstay and Sittong village.
+            </p>
+            <p class="note-small">
+              <em
+                >Note: All images shown are for illustrative purposes. Actual
+                views and experiences may vary based on season and weather
+                conditions.</em
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section section-padding">
+        <div class="container">
+          <div class="cta-content text-center">
+            <h2>Create Your Own Memories</h2>
+            <p>Book your stay and experience the magic of Sittong firsthand</p>
+            <div class="cta-buttons">
+              <a href="rooms.html" class="btn btn-primary">View Rooms & Book</a>
+              <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lightbox Modal (for full-size image viewing) -->
+    <div id="lightbox" class="lightbox" style="display: none">
+      <button class="lightbox-close" aria-label="Close lightbox">
+        &times;
+      </button>
+      <button class="lightbox-prev" aria-label="Previous image">❮</button>
+      <button class="lightbox-next" aria-label="Next image">❯</button>
+      <img src="" alt="" id="lightbox-img" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <h3>Rongsa Farmstay</h3>
+            <p>
+              Experience authentic Lepcha hospitality in Sittong, Darjeeling.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook">📘</a>
+              <a href="#" aria-label="Instagram">📷</a>
+              <a
+                href="https://wa.me/918101379235"
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                >💬</a
+              >
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="rooms.html">Rooms & Pricing</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul class="contact-info">
+              <li>
+                📍 Sittong 2, Lower Mamring Busty<br />Darjeeling, West Bengal
+              </li>
+              <li>📞 <a href="tel:+918101379235">+91 81013 79235</a></li>
+              <li>
+                ✉️
+                <a href="mailto:info@rongsafarmstay.com"
+                  >info@rongsafarmstay.com</a
+                >
+              </li>
+              <li>
+                💬
+                <a
+                  href="https://wa.me/918101379235"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Location</h4>
+            <p>
+              <strong>Nearest Town:</strong> Kurseong (18 km)<br />
+              <strong>From Darjeeling:</strong> 35 km<br />
+              <strong>From Siliguri:</strong> 45 km
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Rongsa Farmstay. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
