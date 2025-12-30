@@ -1,5 +1,15 @@
-Rongsa Farmstay Website
-Authentic Lepcha Homestay in Sittong, Darjeeling
+# 🏔️ Rongsa Farmstay - Authentic Village Homestay in Sittong, Darjeeling
+
+> Experience authentic Lepcha hospitality at our riverside farmstay with swimming pool, mountain views, and traditional village life.
+
+**📍 Location:** Sittong 2, Lower Mamring Busty, Darjeeling  
+**📞 Contact:** +91 81013 79235  
+**🌐 Website:** [Visit Rongsa Farmstay](https://dinchu1.github.io/rongsa-farmstay)
+
+---
+
+## About This Project
+
 A mobile-first, SEO-optimized static website built with HTML, CSS, and JavaScript. Designed for easy conversion to Flask application in the future.
 
 📋 Table of Contents
