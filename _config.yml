@@ -1,4 +1,29 @@
-title: Rongsa Farmstay
-description: Authentic Village Homestay in Sittong, Darjeeling
+# Site settings
+title: Rongsa Farmstay - Village Homestay in Sittong, Darjeeling
+description: >-
+  Experience authentic Lepcha hospitality at our riverside farmstay with 
+  swimming pool, mountain views, and traditional village life in Sittong 2, Darjeeling.
 url: https://dinchu1.github.io
 baseurl: /rongsa-farmstay
+
+# SEO settings
+lang: en
+author: Rongsa Farmstay
+keywords: homestay Darjeeling, Sittong village, Lepcha homestay, farmstay Darjeeling
+
+# Social/Contact
+phone: +91 81013 79235
+email: info@rongsafarmstay.com
+whatsapp: 918101379235
+
+# GitHub Pages settings
+markdown: kramdown
+exclude:
+  - README.md
+  - DOCUMENTATION.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+# Disable Jekyll blog features
+permalink: none
