@@ -16,6 +16,10 @@ phone: +91 81013 79235
 email: info@rongsafarmstay.com
 whatsapp: 918101379235
 
+# ✅ ADD THESE - Tells Jekyll to leave your HTML alone
+theme: null
+plugins: []
+
 # GitHub Pages settings
 markdown: kramdown
 exclude:
@@ -25,5 +29,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Disable Jekyll blog features
 permalink: none
