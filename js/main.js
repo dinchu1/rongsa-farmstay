@@ -174,18 +174,18 @@ document.addEventListener("DOMContentLoaded", function () {
           <p><strong>Unable to submit form.</strong></p>
           <p>Please contact us directly:</p>
           <div style="display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
-            <a href="https://wa.me/918101379235?text=${encodeURIComponent(
+            <a href="https://wa.me/919382972690?text=${encodeURIComponent(
               `Hi! I'd like to inquire about Rongsa Farmstay.\n\nName: ${
                 data.name
               }\nEmail: ${data.email}\nPhone: ${data.phone}\nCheck-in: ${
                 data.checkin || "Not specified"
               }\nCheck-out: ${data.checkout || "Not specified"}\nGuests: ${
                 data.guests
-              }\n\nMessage: ${data.message || "N/A"}`
+              }\n\nMessage: ${data.message || "N/A"}`,
             )}" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
               WhatsApp Us
             </a>
-            <a href="tel:+918101379235" class="btn btn-secondary">
+            <a href="tel:+919382972690" class="btn btn-secondary">
               Call Now
             </a>
           </div>
@@ -263,12 +263,12 @@ document.addEventListener("DOMContentLoaded", function () {
           <p><strong>Unable to send message.</strong></p>
           <p>Please contact us directly:</p>
           <div style="display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
-            <a href="https://wa.me/918101379235?text=${encodeURIComponent(
-              `Hi! I have a question about Rongsa Farmstay.\n\nName: ${data.name}\nEmail: ${data.email}\nSubject: ${data.subject}\n\nMessage: ${data.message}`
+            <a href="https://wa.me/919382972690?text=${encodeURIComponent(
+              `Hi! I have a question about Rongsa Farmstay.\n\nName: ${data.name}\nEmail: ${data.email}\nSubject: ${data.subject}\n\nMessage: ${data.message}`,
             )}" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
               WhatsApp
             </a>
-            <a href="tel:+918101379235" class="btn btn-secondary">
+            <a href="tel:+919382972690" class="btn btn-secondary">
               Call: +91 81013 79235
             </a>
           </div>
@@ -519,14 +519,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // ==================
   console.log(
     "%c🏔️ Welcome to Rongsa Farmstay! 🏔️",
-    "color: #2D5016; font-size: 20px; font-weight: bold;"
+    "color: #2D5016; font-size: 20px; font-weight: bold;",
   );
   console.log(
     "%cWebsite designed for authentic Lepcha hospitality in Sittong, Darjeeling",
-    "color: #C1666B; font-size: 14px;"
+    "color: #C1666B; font-size: 14px;",
   );
   console.log(
     "%cFor inquiries: +91 81013 79235",
-    "color: #5A5A5A; font-size: 12px;"
+    "color: #5A5A5A; font-size: 12px;",
   );
 });

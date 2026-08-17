@@ -43,29 +43,3 @@ Design
 Primary: Deep Forest Green (#2D5016)
 Secondary: Warm Terracotta (#C1666B)
 Accent: Soft Cream (#FAF9F6)
-
-🖋️ Typography: Poppins + Playfair Display (Google Fonts)
-📱 Fully Responsive across all devices
-
-📁 Folder Structure
-rongsa-farmstay/
-│
-├── index.html # Home page
-├── about.html # About page
-├── rooms.html # Rooms & Pricing
-├── gallery.html # Photo gallery
-├── contact.html # Contact & directions
-│
-├── css/
-│ └── style.css # Main stylesheet (all styles)
-│
-├── js/
-│ └── main.js # Main JavaScript (interactions)
-│
-├── images/ # Image folder
-│ ├── favicon.png # (Add your favicon)
-│ ├── hero-bg.jpg # (Add hero background)
-│ ├── page-hero-bg.jpg # (Add subpage hero)
-│ └── placeholder-\*.jpg # (Replace with real images)
-│
-└── README.md # This file
